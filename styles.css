@@ -1,0 +1,89 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+}
+
+.hero {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://i0.wp.com/outoftownblog.com/wp-content/uploads/2020/09/Santichon-Village-photo-via-Depositphotos.jpg?fit=1200%2C675&ssl=1");
+    background-size: cover;
+    padding: 60px;
+}
+
+img {
+    width: 100px;
+}
+
+#pai {
+    background: #457B9D;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin: 40px 0px 0px 0px;
+}
+
+#enjoy {
+    background: #1D3557;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+#activity-background {
+    background: #F1FAEE;
+    padding: 1px 0px 20px 0px;
+}
+
+#topThree {
+    margin: 20px 0px 30px 0px;
+}
+
+#ohad-margin {
+    margin-right: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    background: #A8DADC;
+    border-bottom: 4px solid;
+}
+
+.width {
+    width: 200px;
+}
+
+#imgwidth {
+    width:160px;
+    margin-right: 30px
+}
